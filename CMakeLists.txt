@@ -19,3 +19,5 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(imread imread.cpp)
 target_link_libraries(imread ${OpenCV_LIBS})
+
+add_executable(test classtest.cpp)
