@@ -17,7 +17,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(imread imread.cpp)
+add_executable(imread imread.cpp mytools.cpp jpgheaders.cpp)
 target_link_libraries(imread ${OpenCV_LIBS})
 
 add_executable(test classtest.cpp)

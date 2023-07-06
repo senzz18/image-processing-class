@@ -31,5 +31,7 @@
 *.out
 *.app
 
+*.jpg
+
 .vscode/
 build/
